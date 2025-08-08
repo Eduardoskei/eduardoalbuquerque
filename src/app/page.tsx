@@ -1,5 +1,7 @@
 import About from "@/components/About";
 import NavBar from "@/components/NavBar";
+import Skills from "@/components/Skills";
+import Works from "@/components/Works";
 
 export default function Home() {
   return (
@@ -16,13 +18,19 @@ export default function Home() {
       </div>
 
       {/*NavBar*/}
-      <div className="mb-5"></div>
+      <div className="mb-5">
+        <Skills/>
+      </div>
 
       {/*NavBar*/}
-      <div className="mb-5"></div>
+      <div className="mb-5">
+        <Works/>
+      </div>
 
       {/*NavBar*/}
-      <div className="mb-5"></div>
+      <div className="mb-5">
+        
+      </div>
     </div>
   )
 }
