@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import NavBar from "@/components/NavBar";
 import Skills from "@/components/Skills";
 import Works from "@/components/Works";
@@ -29,7 +30,7 @@ export default function Home() {
 
       {/*NavBar*/}
       <div className="mb-5">
-        
+        <Contact/>
       </div>
     </div>
   )
