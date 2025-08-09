@@ -1,3 +1,4 @@
+// Projects
 export const projects = [
     {
       title: "ChatAi.help",
@@ -24,3 +25,31 @@ export const projects = [
       link: "https://portifolio-blzy.vercel.app/",
     },
   ];
+
+// Skills
+export const skills = [
+  {
+    imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    alt: "HTML5",
+    title: "HTML5",
+    description: "Define a estrutura da página, organizando títulos, textos, imagens e outros elementos."
+  },
+  {
+    imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+    alt: "CSS3",
+    title: "CSS3",
+    description: "Controla o visual do site, incluindo cores, espaçamentos, fontes, animações e layouts."
+  },
+  {
+    imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    alt: "JavaScript",
+    title: "JavaScript",
+    description: "Permite interatividade e dinamismo nas páginas, como menus, formulários e efeitos."
+  },
+  {
+    imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+    alt: "Bootstrap",
+    title: "Bootstrap",
+    description: "Facilita o desenvolvimento com estilos prontos e design responsivo para diversos dispositivos."
+  }
+];

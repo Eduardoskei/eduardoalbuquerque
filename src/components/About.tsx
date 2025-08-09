@@ -1,13 +1,13 @@
 export default function About() {
   return (
     <section id="aboutMeSection">
-      <section className="flex flex-col items-center justify-center min-h-screen bg-black text-center">
-        <p className="text-white text-3xl mb-2">Olá, me chamo</p>
+      <section className="flex flex-col items-center justify-center min-h-screen bg-background text-center">
+        <p className="text-foreground text-3xl mb-2">Olá, me chamo</p>
         <h1 className="text-7xl font-extrabold text-purple-600">Luiz Eduardo</h1>
         <p className="text-gray-400 font-extralight text-3xl mt-2">E sou um Dev. Front-End</p>
       </section>
 
-      <div className="container mx-auto text-white text-center py-10 px-4">
+      <div className="container mx-auto text-foreground text-center py-10 px-4">
         <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-6 text-5xl">
           Sobre mim
         </h1>
