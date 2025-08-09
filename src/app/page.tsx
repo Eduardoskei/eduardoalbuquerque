@@ -2,7 +2,6 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import NavBar from "@/components/NavBar";
 import SkillCard from "@/components/SkillCard";
-import Skills from "@/components/SkillCard";
 import WorkCard from "@/components/WorkCard";
 import { projects, skills } from "@/data/mockdata";
 
