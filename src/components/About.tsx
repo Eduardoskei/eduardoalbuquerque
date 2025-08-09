@@ -1,20 +1,17 @@
 export default function About() {
   return (
     <section id="aboutMeSection">
-      <div
-        className="container mx-auto text-center text-white spacing"
-        style={{ maxHeight: '600px' }}
-      >
-        <h1 className="text-2xl">Olá, me chamo</h1>
-        <h1 className="text-6xl font-bold text-[#6A0DAD]">Luiz Eduardo</h1>
-        <p className="text-2xl mt-2">E sou um Dev. Front-End</p>
-      </div>
+      <section className="flex flex-col items-center justify-center min-h-screen bg-black text-center">
+        <p className="text-white text-3xl mb-2">Olá, me chamo</p>
+        <h1 className="text-7xl font-extrabold text-purple-600">Luiz Eduardo</h1>
+        <p className="text-gray-400 font-extralight text-3xl mt-2">E sou um Dev. Front-End</p>
+      </section>
 
-      <div className="container mx-auto text-white text-center mt-10 py-10 px-4">
-        <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-6 text-3xl">
+      <div className="container mx-auto text-white text-center py-10 px-4">
+        <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-6 text-5xl">
           Sobre mim
         </h1>
-        <div className="max-w-2xl mx-auto space-y-4 text-lg">
+        <div className="max-w-2xl mx-auto space-y-4 text-xl">
           <p>
             Tenho 16 anos e estudo na EEEP Luiz Gonzaga Fonseca Mota, no curso técnico de Informática.
             Também faço parte do Curso de Front-End no Amontada Valley, onde venho me aprofundando no

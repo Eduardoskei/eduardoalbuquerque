@@ -4,23 +4,24 @@ import Image from 'next/image'
 
 export default function ContactSection() {
   return (
-    <section id="contactSection" className="mt-5">
-      <div className="container mx-auto text-center text-white px-4">
-        <h1 className="border-b-2 border-violet-500 text-violet-500 text-3xl font-bold mb-6">
+    <section id="contactSection" className="py-12 bg-black">
+      <div className="container mx-auto text-white text-center px-4">
+        <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-10 text-5xl">
           Entre em contato
         </h1>
 
-        <div className="flex justify-center items-center gap-5 mb-6">
+        {/* Social Icons */}
+        <div className="flex justify-center gap-6 mb-10">
           <a
-            href="https://br.linkedin.com/in/eduardo-albuquerque-91b1422a4?trk=people-guest_people_search-card"
+            href="https://www.linkedin.com/in/eduardo-albuquerque-263610379/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
               alt="LinkedIn"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
           </a>
           <a
@@ -31,8 +32,8 @@ export default function ContactSection() {
             <Image
               src="/img/github-white.svg"
               alt="GitHub"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
           </a>
           <a
@@ -41,36 +42,41 @@ export default function ContactSection() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/img/instagram.svg"
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
               alt="Instagram"
-              width={54}
-              height={54}
+              width={42}
+              height={42}
             />
           </a>
         </div>
 
-        <form className="mx-auto mb-10 max-w-md">
+        {/* Formulário */}
+        <form className="mx-auto max-w-md text-left">
           <input
             type="text"
             placeholder="Digite o seu nome"
-            className="form-control w-full bg-gray-800 text-white p-3 mb-4 rounded"
+            className="w-full bg-gray-800 text-white p-3 mb-4 rounded outline-none border-none shadow-none focus:outline-none focus:border-none focus:ring-0"
           />
+
           <input
             type="email"
             placeholder="Digite o seu e-mail"
-            className="form-control w-full bg-gray-800 text-white p-3 mb-4 rounded"
+            className="w-full bg-gray-800 text-white p-3 mb-4 rounded outline-none border-none shadow-none focus:outline-none focus:border-none focus:ring-0"
           />
+
           <textarea
             rows={4}
             placeholder="Como posso lhe ajudar?"
-            className="form-control w-full bg-gray-800 text-white p-3 mb-4 rounded"
+            className="w-full bg-gray-800 text-white p-3 mb-4 rounded outline-none border-none shadow-none focus:outline-none focus:border-none focus:ring-0"
           />
-          <button
-            type="submit"
-            className="btn w-1/3 bg-violet-600 hover:bg-violet-700 text-white py-2 px-4 rounded"
-          >
-            Enviar
-          </button>
+          <div className="text-center bg-black">
+            <button
+              type="submit"
+              className="bg-violet-700 hover:bg-violet-800 transition text-white px-6 py-2 rounded cursor-pointer"
+            >
+              Enviar
+            </button>
+          </div>
         </form>
       </div>
     </section>
