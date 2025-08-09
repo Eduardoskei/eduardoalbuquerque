@@ -1,14 +1,14 @@
 export default function Skills() {
   return (
-    <section id="skillSection" className="py-16">
+    <section id="skillSection" className="py-12 bg-black">
       <div className="container mx-auto text-white text-center px-4">
-        <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-10 text-3xl">
+        <h1 className="text-[#6A0DAD] border-b border-[#6A0DAD] inline-block pb-2 mb-10 text-5xl">
           Habilidades
         </h1>
 
         <div className="flex flex-wrap justify-center gap-6">
           {/* HTML */}
-          <div className="w-40 p-4 border rounded-2xl bg-black-card">
+          <div className="w-60 p-4 border transform cursor-pointer hover:scale-110 transition rounded-2xl bg-black-card">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
               alt="HTML5"
@@ -22,7 +22,7 @@ export default function Skills() {
           </div>
 
           {/* CSS */}
-          <div className="w-40 p-4 border rounded-2xl bg-black-card">
+          <div className="w-60 p-4 border transform cursor-pointer hover:scale-110 transition rounded-2xl bg-black-card">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
               alt="CSS3"
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
 
           {/* JavaScript */}
-          <div className="w-40 p-4 border rounded-2xl bg-black-card">
+          <div className="w-60 p-4 border transform cursor-pointer hover:scale-110 transition rounded-2xl bg-black-card">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt="JavaScript"
@@ -50,7 +50,7 @@ export default function Skills() {
           </div>
 
           {/* Bootstrap */}
-          <div className="w-40 p-4 border rounded-2xl bg-black-card">
+          <div className="w-60 p-4 border transform cursor-pointer hover:scale-110 transition rounded-2xl bg-black-card">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
               alt="Bootstrap"
