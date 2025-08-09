@@ -17,7 +17,7 @@ export default function WorkCard({
 }: WorkCardProps) {
   return (
     <div className="w-96 p-5">
-      <div className="border bg-black h-135">
+      <div className="border dark:border-white bg-background h-135 shadow-lg transform hover:scale-110 transition cursor-pointer">
         <Image
           src={imageSrc}
           alt={imageAlt}
@@ -26,8 +26,8 @@ export default function WorkCard({
           className="rounded-t-lg"
         />
         <div className="p-4">
-          <h5 className="text-xl font-semibold mb-2">{title}</h5>
-          <p className="text-sm mb-4">{description}</p>
+          <h5 className="text-xl text-foreground font-semibold mb-2">{title}</h5>
+          <p className="text-sm text-foreground mb-4">{description}</p>
           <a
             href={link}
             target="_blank"
