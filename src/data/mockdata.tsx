@@ -22,7 +22,7 @@ export const projects = [
         "Portfólio desenvolvido com Bootstrap para apresentar projetos de forma responsiva e moderna, destacando habilidades em front-end e proporcionando uma navegação clara e objetiva.",
       imageSrc: "/img/portifolio.svg",
       imageAlt: "Portfólio",
-      link: "https://portifolio-blzy.vercel.app/",
+      link: "https://eduardoalbuquerque.vercel.app/",
     },
   ];
 
