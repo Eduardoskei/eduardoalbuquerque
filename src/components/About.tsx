@@ -6,7 +6,7 @@ export default function About() {
       <section className="flex flex-col items-center justify-center min-h-screen bg-background text-center">
         <p className="text-foreground text-3xl mb-2">Olá, me chamo</p>
         <h1 className="text-7xl font-extrabold text-purple-600">Luiz Eduardo</h1>
-        <p className="text-gray-400 font-extralight text-3xl my-2">E sou um Dev. Front-End</p>
+        <p className="text-gray-400 font-extralight text-3xl mt-2 mb-6">E sou um Dev. Front-End</p>
         <DowloadBtn/>
       </section>
 
